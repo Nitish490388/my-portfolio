@@ -20,10 +20,22 @@ function DesktopNavLinks() {
         </ScrollLink>
       </li>
       <li className="btn-primary ">
-        <Link href="/">Contacts</Link>
+        <Link href="/">Projects</Link>
       </li>
       <li className="btn-primary ">
-        <Link href="/">Projects</Link>
+      <ScrollLink
+          activeClass="active"
+          to="skills"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          Skills
+        </ScrollLink>
+      </li>
+      <li className="btn-primary ">
+        <Link href="/">Contacts</Link>
       </li>
     </ul>
   );

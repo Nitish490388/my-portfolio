@@ -4,6 +4,7 @@ import image1 from "../assets/image1.gif";
 const AboutMe = () => {
   return (
     <section id="about-me" className="w-full overflow-hidden">
+       <div className="w-full h-[100px]"></div>
       <h2 className="first-letter:text-yellow-500 text-center text-4xl m-20">About Me</h2>
       <div className="flex flex-col md:flex-row md:justify-center gap-20 md:gap-3">
         <div>
@@ -18,6 +19,7 @@ const AboutMe = () => {
             cumen, and a passion for continuous learning, I am eager to contribute my skills and enthusiasm to dynamic projects and collaborative teams.</p>
         </div>
       </div>
+      <div className="w-full h-[100px]"></div>
     </section>
   );
 };

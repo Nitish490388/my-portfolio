@@ -14,17 +14,20 @@ function MobileDrawer({ isOpen, onClose }) {
         </button>
       </div>
       <ul className="flex flex-col justify-center items-center space-y-4">
-        <li className="btn-primary text-3xl">
+        <li className="btn-primary text-3xl" onClick={onClose}>
           <Link href="/">Home</Link>
         </li>
-        <li className="btn-primary text-3xl">
+        <li className="btn-primary text-3xl" onClick={onClose}>
           <Link href="/">About</Link>
         </li>
-        <li className="btn-primary text-3xl">
-          <Link href="/">Contact</Link>
-        </li>
-        <li className="btn-primary text-3xl">
+        <li className="btn-primary text-3xl" onClick={onClose}>
           <Link href="/">Projects</Link>
+        </li>
+        <li className="btn-primary text-3xl" onClick={onClose}>
+          <Link href="/">Skills</Link>
+        </li>
+        <li className="btn-primary text-3xl" onClick={onClose}>
+          <Link href="/">Contacts</Link>
         </li>
         {/* Add other navigation links */}
       </ul>

@@ -3,6 +3,7 @@ import DesktopNavLinks from "../components/DesktopLinks";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import AboutMe from "../components/AboutMe";
+import Skills from "../components/Skills";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Navbar />
       <Header />
       <AboutMe />
+      <Skills/>
     </div>
   );
 };

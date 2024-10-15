@@ -10,12 +10,13 @@ const Header = () => {
       <div className="w-full p-4 md:w-[600px] flex flex-col gap-1 md:gap-4 font-sans">
         <h2 className="text-3xl font-semibold">Hello, I am</h2>
         <h1 className="text-[35px] md:text-5xl font-extrabold first-letter:text-orange-600">Nitish Kumar Jena</h1>
+        <div className="h-[100px] md:h-12">
         <h1 style={{ fontWeight: 'bold', fontSize: '30px' }}>
           I am a {' '}
           <span style={{ color: 'orange', fontWeight: 'bold' }}>
             {/* Style will be inherited from the parent element */}
             <Typewriter
-              words={['Full Stack Developer', 'Problem Solver']}
+              words={['Full Stack Developer']}
               loop={5}
               cursor
               cursorStyle='_'
@@ -25,6 +26,7 @@ const Header = () => {
             />
           </span>
         </h1>
+        </div>
         <p className="text-md">As a full stack Developer. I possess a strong arsenal of skills
           in ReactJS, NodeJS, MongoDB, Javascript, CSS and HTML.
           My expertise lies in crafting dynamic and engaging ways
@@ -35,6 +37,7 @@ const Header = () => {
       <div className="h-[300px] w-[300px] rounded-full overflow-hidden">
         <img src={img} alt="image" className="h-full w-full object-cover" />
       </div>
+
 
 
     </section>
