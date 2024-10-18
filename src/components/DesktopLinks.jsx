@@ -5,9 +5,6 @@ function DesktopNavLinks() {
   return (
     <ul className="absolute right-0 flex flex-row space-x-6">
       <li className="btn-primary ">
-        <Link href="/">Home</Link>
-      </li>
-      <li className="btn-primary ">
         <ScrollLink
           activeClass="active"
           to="about-me"
@@ -20,7 +17,16 @@ function DesktopNavLinks() {
         </ScrollLink>
       </li>
       <li className="btn-primary ">
-        <Link href="/">Projects</Link>
+      <ScrollLink
+          activeClass="active"
+          to="projects"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          Projects
+        </ScrollLink>
       </li>
       <li className="btn-primary ">
       <ScrollLink
@@ -35,7 +41,16 @@ function DesktopNavLinks() {
         </ScrollLink>
       </li>
       <li className="btn-primary ">
-        <Link href="/">Contacts</Link>
+      <ScrollLink
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          Contact
+        </ScrollLink>
       </li>
     </ul>
   );

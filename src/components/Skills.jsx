@@ -128,7 +128,7 @@ const Skills = () => {
               <BsCodeSlash  className="text-orange-600 text-5xl" /> 
             </div>
             <h3 className="font-bold text-2xl tracking-wide">Frontend</h3>
-            <div className="flex flex-wrap gap-2 w-[80%]">
+            <div className="flex flex-wrap items-center justify-center gap-2 w-[80%]">
             <div className="border border-orange-500 w-full mb-8"></div>
               {
                 frontendSkills.map((item, index) => (
@@ -146,7 +146,7 @@ const Skills = () => {
               <GoTools className="text-orange-600 text-5xl" />
             </div>
             <h3 className="font-bold text-2xl tracking-wide">Backend</h3>
-            <div className="flex flex-wrap gap-2 w-[80%]">
+            <div className="flex flex-wrap items-center justify-center gap-2 w-[80%]">
             <div className="border border-orange-500 w-full mb-8"></div>
               {
                 backendSkills.map((item, index) => (
@@ -164,7 +164,7 @@ const Skills = () => {
               <IoIosGitBranch className="text-orange-600 text-5xl" />
             </div>
             <h3 className="font-bold text-2xl tracking-wide">Others</h3>
-            <div className="flex flex-wrap gap-2 w-[80%]">
+            <div className="flex flex-wrap items-center justify-center gap-2 w-[80%]">
             <div className="border border-orange-500 w-full mb-8"></div>
               {
                 OtherSkills.map((item, index) => (
