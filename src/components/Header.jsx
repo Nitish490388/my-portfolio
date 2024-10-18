@@ -4,6 +4,10 @@ import { Typewriter } from 'react-simple-typewriter';
 
 const Header = () => {
 
+  const handleDownload = () => {
+    window.open("https://drive.google.com/file/d/1cee58VVJWsYb2p9B2X5CYwDj77VJ3J7k/view?usp=drivesdk", "_blank");
+  };
+
   return (
     <section className="w-full overflow-hidden mt-28 flex flex-col-reverse items-center gap-10 md:flex-row justify-evenly ">
 
@@ -31,8 +35,12 @@ const Header = () => {
           in ReactJS, NodeJS, MongoDB, Javascript, CSS and HTML.
           My expertise lies in crafting dynamic and engaging ways
           to build an application from scratch.</p>
+          <div className="w-full ">
+          <button className="mt-2 font-bold outline outline-orange-700 py-2 px-4 rounded-lg " onClick={handleDownload}>Download CV</button>
+          </div>
       </div>
 
+      
 
       <div className="h-[300px] w-[300px] rounded-full overflow-hidden">
         <img src={img} alt="image" className="h-full w-full object-cover" />

@@ -4,7 +4,7 @@ import paytm from "../assets/paytm.png";
 import shop from "../assets/shop.png";
 import { AiOutlineHtml5 } from "react-icons/ai";
 import {  FaDocker, FaGithub, FaNodeJs, FaReact } from "react-icons/fa";
-import { SiCloudinary, SiExpress, SiMongodb,  SiNpm, SiTurborepo } from "react-icons/si";
+import { SiCloudinary, SiExpress, SiMongodb,  SiNpm, SiRecoil, SiRedux, SiTurborepo } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { TbBrandTypescript } from "react-icons/tb";
 
@@ -22,6 +22,11 @@ const Projects = () => {
         {
           title: "React",
           logo: <FaReact />,
+        },
+
+        {
+          title: "Recoil",
+          logo: <SiRecoil/>
         },
         {
           title: "tailwind",
@@ -72,8 +77,12 @@ const Projects = () => {
       share images. It is created using mern stack.`,
       technologies: [
         {
-          title: "React",
+          title: "React", 
           logo: <FaReact />,
+        },
+        {
+          title: "Redux-toolkit",
+          logo: <SiRedux/>
         },
         {
           title: "tailwind",
@@ -120,6 +129,10 @@ const Projects = () => {
         {
           title: "Next.js",
           logo: <FaReact />,
+        },
+        {
+          title: "Recoil",
+          logo: <SiRecoil/>
         },
         {
           title: "tailwind",
